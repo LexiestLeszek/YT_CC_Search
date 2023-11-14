@@ -1,0 +1,38 @@
+body {
+    padding: 5px 0 10px 0;
+    width: 325px;
+}
+input {
+  width: 100%;
+  padding: 4px 0 3px 4px;
+  margin-bottom: 3px;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+#youtube-title {
+	display: none;
+}
+#timestamp {
+	width: 100%;
+	padding: 7px 3px;
+	background: white;
+	border-radius: 5px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* -webkit-transition:all 0.2s ease-in; */
+}
+#timestamp:hover{
+	background:#F0F0F0;
+	cursor:pointer;
+}
+
+.clear {clear: both}
